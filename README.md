@@ -9,8 +9,6 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)]()
 
-<img src="1_Book_List.jpg" alt="Preview" width="700">
-
 **Aplikasi siap pakai untuk tugas kuliah, portofolio, atau pembelajaran PHP Native.**
 
 [Fitur](#-fitur) • [Instalasi](#-instalasi) • [Screenshot](#-screenshot) • [Teknologi](#-teknologi)
@@ -80,7 +78,7 @@ http://localhost/perpus/index.php
 
 ---
 
-📸 **Screenshot**
+### 📸 Screenshot
 
 Halaman Buku Halaman Peminjaman
 screenshots/1_Book_List.png screenshots/2_Loan_List_Book.png
