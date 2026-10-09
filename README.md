@@ -79,3 +79,66 @@ http://localhost/perpus/index.php
 ✅ Selesai! Aplikasi siap digunakan.
 
 ---
+
+📸 **Screenshot**
+
+Halaman Buku Halaman Peminjaman
+screenshots/1_Book_List.png screenshots/2_Loan_List_Book.png
+
+Form Tambah Buku
+screenshots/3_Add_a_New_Book.png
+
+---
+
+### 🗄️ Struktur Database
+
+Aplikasi ini menggunakan 5 tabel dengan relasi yang saling terhubung:
+
+```mermaid
+erDiagram
+    PERPUSTAKAAN ||--o{ BUKU : "memiliki"
+    ANGGOTA ||--o{ PEMINJAMAN : "melakukan"
+    BUKU ||--o{ PEMINJAMAN : "dipinjam"
+    PEMINJAMAN ||--o| PENGEMBALIAN : "memiliki"
+
+    PERPUSTAKAAN {
+        int id_perpus PK
+        string nama_perpus
+        string alamat
+        string no_telepon
+        string email
+    }
+    BUKU {
+        int id_buku PK
+        int id_perpus FK
+        string judul
+        string penulis
+        string penerbit
+        year tahun_terbit
+        int stok
+    }
+    ANGGOTA {
+        int id_anggota PK
+        string nama
+        string alamat
+        string no_telepon
+        string email
+        date tanggal_daftar
+    }
+    PEMINJAMAN {
+        int id_pinjam PK
+        int id_anggota FK
+        int id_buku FK
+        date tgl_pinjam
+        date tgl_jatuh_tempo
+        enum status
+    }
+    PENGEMBALIAN {
+        int id_kembali PK
+        int id_pinjam FK
+        date tgl_kembali
+        int denda
+    }
+```
+
+---
