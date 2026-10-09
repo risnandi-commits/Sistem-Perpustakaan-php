@@ -90,11 +90,12 @@ screenshots/3_Add_a_New_Book.png
 
 | Book Page | Loan Page |
 |:---:|:---:|
-| ![Daftar Buku](screenshots/1_Book_List.png) | ![Peminjaman](screenshots/2_Loan_List_Book.png) |
+| ![Book List](screenshots/1_Book_List.png) | ![Loan List Book](screenshots/2_Loan_List_Book.png) |
 
 | A New Book Page |
 |:---:|:---:|
-| ![Tambah Buku](screenshot/3_Add_a_New_Book.png) |
+| ![Add a New Book](screenshot/3_Add_a_New_Book.png) |
+
 ---
 
 ### 🗄️ Struktur Database
