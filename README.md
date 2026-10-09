@@ -53,12 +53,12 @@ git clone https://github.com/[risnandi-commits]/[Sistem-Perpustakaan-php].git
 cd [Sistem-Perpustakaan-php]
 ```
 
-**2. Import Database
+**2. Import Database**
 
 · Buka phpMyAdmin → Buat database baru bernama db_perpus
 · Klik tab Import → pilih file database/database_perpus.sql → Go
 
-**3. Sesuaikan Koneksi Database
+**3. Sesuaikan Koneksi Database**
 
 Buka file index.php, cari baris:
 
@@ -68,7 +68,7 @@ $koneksi = mysqli_connect("localhost", "root", "", "db_perpus");
 
 Sesuaikan user dan password dengan server kamu.
 
-**4. Jalankan Aplikasi
+**4. Jalankan Aplikasi**
 
 Akses lewat browser:
 
