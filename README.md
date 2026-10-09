@@ -25,11 +25,16 @@
   Tambah, lihat, hapus data buku dengan mudah
 - 📋 **Manajemen Peminjaman** —
   Riwayat lengkap transaksi peminjaman
-- 🔄 **Sistem Pengembalian** — Pencatatan tanggal kembali & denda otomatis
-- 🎨 **UI Modern** — Desain responsif dengan gradient & hover effect
-- 📊 **Multi-Tabel JOIN** — Relasi 5 tabel database yang rapi
-- 📱 **Mobile Friendly** — Tampil cantik di HP maupun desktop
-- 📦 **Database Lengkap** — File `.sql` siap import + data dummy
+- 🔄 **Sistem Pengembalian** —
+  Pencatatan tanggal kembali & denda otomatis
+- 🎨 **UI Modern** —
+  Desain responsif dengan gradient & hover effect
+- 📊 **Multi-Tabel JOIN** —
+  Relasi 5 tabel database yang rapi
+- 📱 **Mobile Friendly** —
+  Tampil cantik di HP maupun desktop
+- 📦 **Database Lengkap** —
+  File `.sql` siap import + data dummy
 
 ---
 
