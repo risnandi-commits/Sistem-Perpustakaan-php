@@ -53,12 +53,12 @@ git clone https://github.com/[risnandi-commits]/[Sistem-Perpustakaan-php].git
 cd [Sistem-Perpustakaan-php]
 ```
 
-2. Import Database
+**2. Import Database
 
 · Buka phpMyAdmin → Buat database baru bernama db_perpus
 · Klik tab Import → pilih file database/database_perpus.sql → Go
 
-3. Sesuaikan Koneksi Database
+**3. Sesuaikan Koneksi Database
 
 Buka file index.php, cari baris:
 
@@ -68,7 +68,7 @@ $koneksi = mysqli_connect("localhost", "root", "", "db_perpus");
 
 Sesuaikan user dan password dengan server kamu.
 
-4. Jalankan Aplikasi
+**4. Jalankan Aplikasi
 
 Akses lewat browser:
 
@@ -77,15 +77,5 @@ http://localhost/perpus/index.php
 ```
 
 ✅ Selesai! Aplikasi siap digunakan.
-
----
-
-📸 Screenshot
-
-Halaman Buku Halaman Peminjaman
-screenshots/01-daftar-buku.png screenshots/03-peminjaman.png
-
-Form Tambah Buku Tampilan Mobile
-screenshots/02-tambah-buku.png screenshots/04-mobile.png
 
 ---
