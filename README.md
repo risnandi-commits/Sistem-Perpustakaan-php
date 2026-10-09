@@ -49,8 +49,8 @@
 
 **1. Clone / Download Repository**
 ```bash
-git clone https://github.com/[username]/[nama-repo].git
-cd [nama-repo]
+git clone https://github.com/[risnandi-commits]/[Sistem-Perpustakaan-php].git
+cd [Sistem-Perpustakaan-php]
 ```
 
 2. Import Database
