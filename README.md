@@ -1,4 +1,3 @@
-# Sistem-Perpustakaan-php
 <div align="center">
 
 # 📚 Sistem Informasi Perpustakaan
@@ -22,8 +21,10 @@
 
 ## ✨ Fitur
 
-- 🔐 **CRUD Buku** — Tambah, lihat, hapus data buku dengan mudah
-- 📋 **Manajemen Peminjaman** — Riwayat lengkap transaksi peminjaman
+- 🔐 **CRUD Buku** —
+  Tambah, lihat, hapus data buku dengan mudah
+- 📋 **Manajemen Peminjaman** —
+  Riwayat lengkap transaksi peminjaman
 - 🔄 **Sistem Pengembalian** — Pencatatan tanggal kembali & denda otomatis
 - 🎨 **UI Modern** — Desain responsif dengan gradient & hover effect
 - 📊 **Multi-Tabel JOIN** — Relasi 5 tabel database yang rapi
