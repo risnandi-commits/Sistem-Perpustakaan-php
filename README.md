@@ -78,26 +78,6 @@ http://localhost/perpus/index.php
 
 ---
 
-### 📸 Screenshot
-
-Halaman Buku Halaman Peminjaman
-screenshots/1_Book_List.png screenshots/2_Loan_List_Book.png
-
-Form Tambah Buku
-screenshots/3_Add_a_New_Book.png
-
-## 📸 Screenshot
-
-| Book Page | Loan Page |
-|:---:|:---:|
-| ![Book List](screenshots/1_Book_List.png) | ![Loan List Book](screenshots/2_Loan_List_Book.png) |
-
-| A New Book Page |
-|:---:|:---:|
-| ![Add a New Book](screenshot/3_Add_a_New_Book.png) |
-
----
-
 ### 🗄️ Struktur Database
 
 Aplikasi ini menggunakan 5 tabel dengan relasi yang saling terhubung:
