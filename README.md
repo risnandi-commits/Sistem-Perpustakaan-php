@@ -39,3 +39,21 @@
 ---
 
 ## 🚀 Instalasi
+
+### Persyaratan
+- PHP 7.4 atau lebih baru
+- MySQL / MariaDB
+- Web server (Apache/Nginx) — atau **Ksweb** untuk di Android
+
+### Langkah Cepat
+
+**1. Clone / Download Repository**
+```bash
+git clone https://github.com/[username]/[nama-repo].git
+cd [nama-repo]
+```
+
+2. Import Database
+
+· Buka phpMyAdmin → Buat database baru bernama db_perpus
+· Klik tab Import → pilih file database/database_perpus.sql → Go
