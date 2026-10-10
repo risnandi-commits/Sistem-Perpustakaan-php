@@ -1,0 +1,9 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore config pribadi
+config/secrets.php
+
+# Ignore log
+*.log
