@@ -1,0 +1,244 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+    color: white;
+    padding: 25px 30px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.header p {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.nav {
+    background: #f8f9fa;
+    padding: 15px 30px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    gap: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #4e54c8;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    background: #4e54c8;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    color: #4e54c8;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4e54c8;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background: #3d42a8;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(78, 84, 200, 0.4);
+}
+
+.btn-danger {
+    background: #e74c3c;
+}
+
+.btn-danger:hover {
+    background: #c0392b;
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+}
+
+.btn-success {
+    background: #27ae60;
+}
+
+.btn-success:hover {
+    background: #219150;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+table thead {
+    background: #4e54c8;
+    color: white;
+}
+
+table th {
+    padding: 14px 12px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+table td {
+    padding: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+table tbody tr:hover {
+    background: #f8f9ff;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.badge {
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge-dipinjam {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.badge-selesai {
+    background: #d4edda;
+    color: #155724;
+}
+
+.badge-terlambat {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #555;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #4e54c8;
+    box-shadow: 0 0 0 3px rgba(78, 84, 200, 0.1);
+}
+
+.action-link {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.action-edit {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.action-hapus {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.action-link:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #888;
+    border-top: 1px solid #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    body { padding: 10px; }
+    .content { padding: 20px 15px; }
+    .nav { padding: 10px 15px; flex-wrap: wrap; }
+    table { font-size: 12px; }
+    table th, table td { padding: 8px 6px; }
+    .header h1 { font-size: 18px; }
+}
