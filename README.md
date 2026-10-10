@@ -131,7 +131,7 @@ erDiagram
 
 ---
 
-🛠️ Teknologi
+## 🛠️ Teknologi
 
 Teknologi Deskripsi
 https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white Backend logic & routing
@@ -141,7 +141,7 @@ https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white S
 
 ---
 
-📂 Struktur Folder
+## 📂 Struktur Folder
 
 ```
 perpus/
@@ -162,7 +162,7 @@ perpus/
 
 ---
 
-💡 Kustomisasi
+## 💡 Kustomisasi
 
 Ingin menyesuaikan aplikasi? Beberapa tips:
 
@@ -172,7 +172,7 @@ Ingin menyesuaikan aplikasi? Beberapa tips:
 
 ---
 
-🤝 Kontribusi
+## 🤝 Kontribusi
 
 Pull request sangat diterima! Untuk perubahan besar, silakan buka issue terlebih dahulu.
 
@@ -184,13 +184,13 @@ Pull request sangat diterima! Untuk perubahan besar, silakan buka issue terlebih
 
 ---
 
-📄 Lisensi
+## 📄 Lisensi
 
 Proyek ini dilisensikan di bawah MIT License — bebas digunakan untuk keperluan pribadi maupun komersial.
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Risnandi Jaya S
 
