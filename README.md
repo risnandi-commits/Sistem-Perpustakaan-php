@@ -11,7 +11,7 @@
 
 **Aplikasi siap pakai untuk tugas kuliah, portofolio, atau pembelajaran PHP Native.**
 
-[Fitur](#-fitur) • [Instalasi](#-instalasi) • [Screenshot](#-screenshot) • [Teknologi](#-teknologi)
+[Fitur](#-fitur) • [Instalasi](#-instalasi) • [Teknologi](#-teknologi)
 
 </div>
 
