@@ -130,3 +130,82 @@ erDiagram
 ```
 
 ---
+
+🛠️ Teknologi
+
+Teknologi Deskripsi
+https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white Backend logic & routing
+https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white Database penyimpanan data
+https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white Struktur halaman
+https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white Styling modern responsif
+
+---
+
+📂 Struktur Folder
+
+```
+perpus/
+├── assets/
+│   └── css/
+│       └── style.css
+├── database/
+│   └── database_perpus.sql
+├── screenshots/
+│   ├── 1_Book_List.png
+│   ├── 2_Loan_List_Book.png
+│   └── 3_Add_a_New_Book.png
+├── index.php
+├── README.md
+├── LICENSE
+└── file.gitignore
+```
+
+---
+
+💡 Kustomisasi
+
+Ingin menyesuaikan aplikasi? Beberapa tips:
+
+· Ganti nama perpustakaan: Edit langsung di bagian .header pada index.php
+· Ubah warna tema: Buka assets/css/style.css, ganti kode warna #4e54c8 sesuai selera
+· Tambah kolom database: Jangan lupa update query INSERT dan tampilan tabel
+
+---
+
+🤝 Kontribusi
+
+Pull request sangat diterima! Untuk perubahan besar, silakan buka issue terlebih dahulu.
+
+1. Fork repository ini
+2. Buat branch fitur (git checkout -b fitur/FiturBaru)
+3. Commit perubahan (git commit -m 'Menambah fitur baru')
+4. Push ke branch (git push origin fitur/FiturBaru)
+5. Buka Pull Request
+
+---
+
+📄 Lisensi
+
+Proyek ini dilisensikan di bawah MIT License — bebas digunakan untuk keperluan pribadi maupun komersial.
+
+---
+
+👨‍💻 Author
+
+Risnandi Jaya S
+
+· GitHub: @risnandi-commits
+· Email: risnandjayas@gmail.com
+
+---
+
+<div align="center">
+
+⭐ Kalau proyek ini bermanfaat, jangan lupa kasih bintang ya! ⭐
+
+Dibuat dengan ❤️ dari [Bandung]
+
+</div>
+```
+
+---
