@@ -166,9 +166,9 @@ perpus/
 
 Ingin menyesuaikan aplikasi? Beberapa tips:
 
-· Ganti nama perpustakaan: Edit langsung di bagian .header pada index.php
-· Ubah warna tema: Buka assets/css/style.css, ganti kode warna #4e54c8 sesuai selera
-· Tambah kolom database: Jangan lupa update query INSERT dan tampilan tabel
+- Ganti nama perpustakaan: Edit langsung di bagian .header pada index.php
+- Ubah warna tema: Buka assets/css/style.css, ganti kode warna #4e54c8 sesuai selera
+- Tambah kolom database: Jangan lupa update query INSERT dan tampilan tabel
 
 ---
 
@@ -194,8 +194,8 @@ Proyek ini dilisensikan di bawah MIT License — bebas digunakan untuk keperluan
 
 Risnandi Jaya S
 
-· GitHub: @risnandi-commits
-· Email: risnandjayas@gmail.com
+- GitHub: @risnandi-commits
+- Email: risnandjayas@gmail.com
 
 ---
 
