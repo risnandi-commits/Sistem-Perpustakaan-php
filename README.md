@@ -207,6 +207,4 @@ Risnandi Jaya S
 Dibuat dengan ❤️ dari [Bandung]
 
 </div>
-```
-
 ---
