@@ -133,11 +133,10 @@ erDiagram
 
 ## 🛠️ Teknologi
 
-**Teknologi Deskripsi**
-https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white Backend logic & routing
-https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white Database penyimpanan data
-https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white Struktur halaman
-https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white Styling modern responsif
+- https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white Backend logic & routing
+- https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white Database penyimpanan data
+- https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white Struktur halaman
+- https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white Styling modern responsif
 
 ---
 
